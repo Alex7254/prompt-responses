@@ -1,0 +1,116 @@
+/* Import font from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&display=swap");
+
+/* Custom variables */
+:root {
+  --green: #16db93;
+}
+
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: rgb(8, 20, 40);
+  color: #fff;
+  letter-spacing: 0.0625em;
+  display: grid;
+  place-items: center;
+}
+/* Text selection background */
+::selection {
+  background: var(--green);
+}
+::-moz-selection {
+  background: var(--green);
+}
+
+.button {
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  min-width: 10rem;
+  border: none;
+  border-radius: 0.3rem;
+  background-color: var(--green);
+  font-family: "Roboto Mono", monospace;
+  cursor: pointer;
+}
+
+.main-section {
+  padding: 3rem;
+  text-align: center;
+  width: 90rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.header {
+  font-size: 3.2rem;
+  padding: 1rem;
+  cursor: default;
+}
+
+.sub-header {
+  font-size: 2rem;
+  padding: 1rem;
+  cursor: default;
+}
+
+.prompt-section {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.prompt-input {
+  padding: 0.4rem;
+  font-size: 1rem;
+  height: 15rem;
+  width: 45%;
+  font-weight: 300;
+  resize: none;
+  border-radius: 0.3rem;
+}
+
+.responses-section {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.responses {
+  min-height: min-content;
+}
+
+.response-card {
+  padding: 1rem 0;
+  margin: 1rem 0;
+  font-size: 1.12rem;
+  border-bottom: 0.063rem solid var(--green);
+  cursor: default;
+  text-align: left;
+  line-height: 1.8rem;
+}
+
+.response-card > div {
+  margin: 1rem 0;
+}
+
+.response-prompt {
+  font-weight: 300;
+}
+
+.response {
+  font-weight: 300;
+}
