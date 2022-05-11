@@ -1,4 +1,4 @@
-require("dotenv").config()
+import 'dotenv/config'
 
 const data = {
   prompt: "Write a poem about a dog wearing skis",
