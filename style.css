@@ -4,6 +4,8 @@
 /* Custom variables */
 :root {
   --green: #16db93;
+  --blue: #102B56;
+  --dark-blue: #081428;
 }
 
 /* Reset styles */
@@ -20,7 +22,7 @@
 }
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: var(--blue);
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
@@ -37,7 +39,7 @@
 
 body {
   font-family: "Roboto Mono", monospace;
-  background-color: rgb(8, 20, 40);
+  background-color: var(--dark-blue);
   color: #fff;
   letter-spacing: 0.0625em;
   display: flex;
