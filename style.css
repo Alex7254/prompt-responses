@@ -23,18 +23,22 @@
 /* Track */
 ::-webkit-scrollbar-track {
   background: var(--blue);
+  border-radius: 0.125rem;
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: var(--green);
+  border-radius: 0.125rem;
 }
 
 /* Text selection background */
 ::selection {
   background: var(--green);
+  color: var(--dark-blue);
 }
 ::-moz-selection {
   background: var(--green);
+  color: var(--dark-blue);
 }
 
 body {
