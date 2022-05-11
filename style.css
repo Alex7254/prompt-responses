@@ -90,7 +90,6 @@ body {
   padding: 1rem;
   cursor: default;
 }
-
 .sub-header {
   font-size: 2rem;
   padding: 1rem;
@@ -105,7 +104,6 @@ body {
   justify-content: center;
   width: 40%;
 }
-
 .prompt-input {
   padding: 0.4rem;
   font-size: 1rem;
@@ -128,7 +126,6 @@ body {
   justify-content: center;
   width: 60%;
 }
-
 .responses {
   min-height: min-content;
   height: 25rem;
@@ -136,7 +133,6 @@ body {
   /* display: none; */
   overflow-y: scroll;
 }
-
 .response-card {
   padding: 1rem 0;
   margin: 1rem 0;
@@ -146,15 +142,12 @@ body {
   text-align: left;
   line-height: 1.8rem;
 }
-
 .response-card > div {
   margin: 1rem 0;
 }
-
 .response-prompt {
   font-weight: 300;
 }
-
 .response {
   font-weight: 300;
 }
