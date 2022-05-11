@@ -1,3 +1,5 @@
+require("dotenv").config()
+
 const data = {
   prompt: "Write a poem about a dog wearing skis",
   temperature: 0.5,
