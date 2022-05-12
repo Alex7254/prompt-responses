@@ -11,7 +11,7 @@ fetch("https://api.openai.com/v1/engines/text-curie-001/completions", {
   method: "POST",
   headers: {
     "Content-Type": "application/json",
-    Authorization: `Bearer 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`,
+    Authorization: `Bearer ${OPENAI_SECRET}`,
   },
   body: JSON.stringify(data),
 }).then((res) => {
