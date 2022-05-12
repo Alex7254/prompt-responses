@@ -1,5 +1,3 @@
-import 'dotenv/config'
-
 const data = {
   prompt: "Write a poem about a dog wearing skis",
   temperature: 0.5,
@@ -13,7 +11,7 @@ fetch("https://api.openai.com/v1/engines/text-curie-001/completions", {
   method: "POST",
   headers: {
     "Content-Type": "application/json",
-    Authorization: `Bearer ${process.env.OPENAI_SECRET}`,
+    Authorization: `Bearer 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`,
   },
   body: JSON.stringify(data),
 }).then((res) => {
